@@ -13,8 +13,9 @@
          <nav>
            <ul class="nav nav-pills pull-right">
              <li role="presentation"><a href="index.php">Home</a></li>
-             <li role="presentation"><a href="#">Create Job</a></li>
+             <li role="presentation"><a href="create.php">Create Job</a></li>
            </ul>
          </nav>
          <h3 class="text-muted"><?php $TITLE=TITLE; echo $TITLE;?></h3>
        </div>
+       <?php displayMessage(); ?>
